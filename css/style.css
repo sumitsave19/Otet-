@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+/* Navbar Style Start */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.027), 0 6px 20px 0 rgba(0, 0, 0, 0.089);
+    z-index: 1;
+}
+.navbar {
+    background-image: linear-gradient(to right, #f1f1f1, #f1f1f1);
+}
+.navbar-brand img {
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.navbar li {
+    padding: 8px 12px;
+}
+.navbar li a {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+}
+.fa-bars {
+    color: #000;
+    width: 20px;
+    height: 20px;
+}
+.navbar-toggler {
+    outline: none;
+}
+/* Navbar Style End */
+/* Banner Section Style Start */
+#banner {
+    color: #000;
+    background-image: linear-gradient(to right, #f1f1f1, #f1f1f1);
+    padding-top: 2%;
+    height: 100vh;
+}
+.promo-title {
+    font-size: 60px;
+    font-weight: 600;
+    padding: 40px;
+}
+.promo-text {
+    font-weight: 600;
+}
+.promo-title span {
+    color: red;
+}
+.explore-btn {
+    padding: 9px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.explore-btn:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.banner-img img {
+    width: 100%;
+    height: 70vh;
+    padding: 40px;
+}
+/* Banner Section Style End */
+ /* Services Page Style Start */
+#services {
+    padding-top: 300px;
+    width: 100%;
+    background-image: linear-gradient(to right, #f1f1f1, #f1f1f1);
+}
+.services-title {
+    padding-top: 200px;
+    font-size: 45px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.services-title span {
+    color: red;
+}
+.service-image {
+    width: 200px;
+    padding: 20px;
+}
+#services h2, #services p {
+    padding: 3px;
+}
+/* Service Page Style End */
+/* Banner1 Style Start */
+#banner1 {
+    width: 100%;
+    padding-top: 200px;
+    background-image: linear-gradient(to right, #f1f1f1, #f1f1f1);
+}
+.banner1-title {
+    padding: 30px;
+    font-size: 40px;
+}
+.banner1-text {
+    padding-top: 50px;
+}
+.banner1-image {
+    width: 100%;
+    height: 70vh;
+    padding: 40px;
+    margin-left: 30px;
+}
+/* Banner1 Style End */
+/* Clients Style Start */
+#clients {
+    width: 100%;
+    padding-top: 40px;
+    background-color: #3111e65e;
+}
+#client .container h2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+.client-image { 
+    width: 150px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.client-box {
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    margin: 45px;
+    background-color: beige;
+    border-radius: 10px;
+}
+.client-box p {
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px;
+}
+/* Clients Style End */
+/* Contact Us Style Start */
+.footer-widget-area {
+    padding-top: 100px;
+}
+.widget-content-text {
+    color: white;
+}
+.list-group li {
+    list-style-type: none;
+    margin: 5px;
+}
+.widget-title1 {
+    color: white;
+    padding-left: 65px;
+}
+.media-body p a{
+    color: white;
+    padding-left: 30px;
+}
+.media-body span {
+    color: white;
+    padding-left: 30px;
+}
+.footer-copyright {
+    background-color: rgba(0, 0, 0, 0.979);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-text  {
+    color: white;
+}
+.footer-text span {
+    color: rgba(248, 16, 16, 0.733);
+}
+/* Contact Us Style Start */
